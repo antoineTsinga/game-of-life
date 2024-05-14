@@ -13,10 +13,10 @@ The game is played on a two-dimensional grid of cells, each of which can be aliv
 These simple rules give rise to complex patterns and behaviors, including gliders, blinkers, and other interesting structures.
 
 ## Implementation
-This React app allows users to interact with the Game of Life by toggling cells on or off and observing how the pattern evolves over time. Users can start, stop, and reset the simulation, as well as adjust the speed of the animation.
+This React app allows users to interact with the Game of Life by toggling cells on or off and observing how the pattern evolves over time. Users can start, stop, and reset the simulation.
 
 ## Repository Structure
-The repository for this app contains the React codebase, including components for rendering the grid, handling user input, and implementing the game logic. It also includes stylesheets for layout and design, as well as any additional assets required.
+The repository for this app contains the React codebase, including components for rendering the grid, and implementing the game logic. It also includes stylesheets for layout and design, as well as any additional assets required.
 
 
 ## Available Scripts
