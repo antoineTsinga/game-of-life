@@ -1,0 +1,13 @@
+.grid-container {
+    overflow: auto; /* Cacher les barres de défilement */
+    border: 1px solid #ccc; /* Bordure pour la grille container */
+
+  }
+
+.grab:active  {
+cursor:grabbing
+}
+
+.grab{
+    cursor:grab
+}

@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.container2 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
+
+
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(40, 1fr);
+  grid-template-rows: repeat(40, 1fr);
+  
+}
+
+.cell {
+  width: 20px;
+  height: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+}
+
+.cell_alive {
+  background-color: black !important;
+}
+
+.toolbar-saved{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  flex: 0.5;
+}
+
+.toolbar {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+
+}
+
+.saved-bord{
+  padding: 10px;
+}
+
+.no-data{
+  padding: 10px;
+  height: 500px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.saved-state{
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
+}
+
+.title-save-data{
+  color: white;
+}
+

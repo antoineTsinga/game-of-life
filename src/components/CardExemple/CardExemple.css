@@ -1,0 +1,45 @@
+.card{
+    background-color:white;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+
+.overlay{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.overlay-text{
+    color: white;
+    position: absolute;
+
+}
+
+.overview{
+    display: grid;
+
+}
+
+.overflow{
+
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+  
